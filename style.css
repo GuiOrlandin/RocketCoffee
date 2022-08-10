@@ -1,0 +1,81 @@
+                        /* GLOBAL */
+                        * {
+                            margin: 0;
+                            padding: 0;
+                          }
+                          body {
+                            background-color: #FFEDD5;
+                          
+                          }
+                          body header h1 {
+                            margin-bottom: 4px;
+                            font-family: 'Roboto Serif';
+                            font-size: 28px;
+                          }
+                          /*Efeito cascata quando tiver duas vezes o mesmo comando ele irá executar o da ultima linha*/
+                          ul{
+                            list-style: none;
+                          }
+                                          /* HEADER VULGO CABEÇALHO*/
+                          header{
+                            padding: 32px 0;
+                            text-align: center;
+                          }
+                          header h1 {
+                            line-height: 33px;
+                          }
+                          header p {
+                            font-family: 'Roboto';
+                            font-size: 14px;
+                            line-height: 16px;
+                          }
+                          header,
+                          section{
+                            max-width: 300px;
+                            margin: 0 auto;
+                          }
+                           header h1 span{
+                            color: #995000;
+                          
+                           }
+                          
+                                          /* SECTION */
+                          section{
+                            margin-bottom: 24px;
+                          }
+                          section h2 {
+                            background-color: #FED7AA;
+                            padding: 8px 16px;
+                            text-align: center;
+                            margin-bottom: 24px;
+                            color: #2D2C2A;
+                            line-height: 21px;
+                          }
+                          
+                          ul li {
+                            margin-bottom: 16px;
+                            display: flex;
+                          }
+                          li .Details {
+                            max-width: 240px;
+                          }
+                          .Details h3 {
+                            margin-bottom: 8px;
+                          }
+                          div h3 {
+                            font-family: 'Roboto Serif';
+                            color: #2D2C2A;
+                            line-height: 19px;
+                          }
+                          .description {
+                            font-family: 'Roboto';
+                            font-size: 14px;
+                            color: rgba(0, 0, 0, 0.6); /* 0.6 = 60% da Cor */
+                            line-height: 21px;
+                          }
+                          .price {
+                            font-family: 'Roboto Serif';
+                            font-size: 16px;
+                            line-height: 19px;
+                          }
+                          
